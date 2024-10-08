@@ -9,8 +9,7 @@ import LalibelaPic from "../assets/lalibela church.jpg";
 import danakil3 from "../assets/danakil 3.jpg";
 import simien from "../assets/simien.jpg";
 import merkato from "../assets/merkato 1.jpg";
-import mesut_kaya from {mesut_kaya}
-
+import mesut_kaya from "../assets/mesut_kaya.jpg";
 
 export default function Package() {
   return (
@@ -91,11 +90,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img
-                className="rounded-t-lg"
-                src={danakil3}
-                alt=""
-              />
+              <img className="rounded-t-lg" src={danakil3} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
@@ -175,11 +170,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img
-                className="rounded-t-lg"
-                src={merkato}
-                alt=""
-              />
+              <img className="rounded-t-lg" src={merkato} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
@@ -218,11 +209,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img
-                className="rounded-t-lg"
-                src={mesut_kaya}
-                alt=""
-              />
+              <img className="rounded-t-lg" src={mesut_kaya} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
@@ -261,11 +248,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img
-                className="rounded-t-lg"
-                src={mesut_kaya}
-                alt=""
-              />
+              <img className="rounded-t-lg" src={mesut_kaya} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
@@ -304,11 +287,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img
-                className="rounded-t-lg"
-                src={mesut_kaya}
-                alt=""
-              />
+              <img className="rounded-t-lg" src={mesut_kaya} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
@@ -348,11 +327,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img
-                className="rounded-t-lg"
-                src={mesut_kaya}
-                alt=""
-              />
+              <img className="rounded-t-lg" src={mesut_kaya} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
@@ -392,11 +367,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img
-                className="rounded-t-lg"
-                src={mesut_kaya}
-                alt=""
-              />
+              <img className="rounded-t-lg" src={mesut_kaya} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
