@@ -10,11 +10,7 @@ function Cards({ title, location, travellers }) {
   };
   return (
     <div className="relative w-[300px] h-96 rounded-lg overflow-hidden m-4 group">
-      <img
-        src="src/assets/Lalibela church.jpg"
-        alt="image"
-        className="w-full h-full object-cover"
-      />
+      <img src={image} alt="image" className="w-full h-full object-cover" />
       <button
         onClick={() => setLiked(!liked)}
         className="absolute top-4 right-4 bg-white p-2 rounded-full shadow-md"

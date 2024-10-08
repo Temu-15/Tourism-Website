@@ -9,6 +9,11 @@ import { Scrollbar, Navigation } from "swiper/modules";
 import Cards from "./Cards";
 import "swiper/css/scrollbar";
 import "swiper/css/navigation";
+import adama from "../assets/adama.jpg";
+import addisababa from "../assets/addisAbaba.jpg";
+import harar from "../assets/harar.jpg";
+import lalibela from "../assets/lalibela.jpg";
+import gondar from "../assets/gondar.jpg";
 
 function Feature() {
   return (
@@ -51,19 +56,34 @@ function Feature() {
         <div className="swiper-button-next top-0">BU</div>
         <div className="swiper-button-prev">HGJ</div>
         <SwiperSlide>
-          <Cards title="Lalibela" location="arab" travellers={120} />
+          <Cards
+            title="Addis Ababa"
+            location="ethiopia"
+            travellers={120}
+            image={addisababa}
+          />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <Cards title="Lalibela" location="arab" travellers={120} />
+          <Cards
+            title="Lalibela"
+            location="arab"
+            travellers={120}
+            image={lalibela}
+          />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <Cards title="Lalibela" location="arab" travellers={120} />
+          <Cards title="Adama" location="arab" travellers={120} image={adama} />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <Cards title="Lalibela" location="arab" travellers={120} />
+          <Cards
+            title="Gondar"
+            location="arab"
+            travellers={120}
+            image={gondar}
+          />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
