@@ -56,10 +56,10 @@ function Cards({ title, location, travellers, image }) {
         >
           Register Now
         </button>
-        <h2 className="mb-2 text-[38px] font-bold tracking-tight text-gray-900 dark:text-white">
+        <h2 className="mb-2 text-[38px] font-bold tracking-tight text-white">
           {title}
         </h2>
-        <p className="text-gray-600">{location}</p>
+        <p className="text-[#F5F5F5]">{location}</p>
         <p className="text-white-500 text-[18px] mt-2">
           {travellers} people want to travel here
         </p>
