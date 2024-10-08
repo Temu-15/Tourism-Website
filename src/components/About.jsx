@@ -46,7 +46,7 @@ function About() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-manrope text-4xl text-center text-gray-900 font-bold mb-14">
-            Explore Ethiopia in Numbers
+            Explore oir company in Numbers
           </h2>
           <div className="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
             <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
