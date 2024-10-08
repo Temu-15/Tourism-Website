@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./package.css";
 import { Pagination, Scrollbar } from "swiper/modules";
+import LalibelaPic from "../assets/lalibela church.jpg";
 
 export default function Package() {
   return (
@@ -46,11 +47,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img
-                className="rounded-t-lg"
-                src="../assets/Lalibela church.jpg"
-                alt=""
-              />
+              <img className="rounded-t-lg" src={LalibelaPic} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
