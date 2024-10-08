@@ -48,7 +48,7 @@ export default function Package() {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/Lalibela church.jpg"
+                src="../assets/Lalibela church.jpg"
                 alt=""
               />
             </a>
@@ -91,7 +91,7 @@ export default function Package() {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/danakil 3.jpg"
+                src="../assets/danakil 3.jpg"
                 alt=""
               />
             </a>
@@ -133,11 +133,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img
-                className="rounded-t-lg"
-                src="src/assets/simien.jpg"
-                alt=""
-              />
+              <img className="rounded-t-lg" src="../assets/simien.jpg" alt="" />
             </a>
             <div className="p-5">
               <a href="#">
@@ -179,7 +175,7 @@ export default function Package() {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/merkato 1.jpg"
+                src="../assets/merkato 1.jpg"
                 alt=""
               />
             </a>
@@ -222,7 +218,7 @@ export default function Package() {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/mesut_kaya.jpg"
+                src="../assets/mesut_kaya.jpg"
                 alt=""
               />
             </a>
@@ -265,7 +261,7 @@ export default function Package() {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/mesut_kaya.jpg"
+                src="../assets/mesut_kaya.jpg"
                 alt=""
               />
             </a>
@@ -308,7 +304,7 @@ export default function Package() {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/mesut_kaya.jpg"
+                src="../assets/mesut_kaya.jpg"
                 alt=""
               />
             </a>
@@ -352,7 +348,7 @@ export default function Package() {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/mesut_kaya.jpg"
+                src="../assets/mesut_kaya.jpg"
                 alt=""
               />
             </a>
@@ -396,7 +392,7 @@ export default function Package() {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/mesut_kaya.jpg"
+                src="../assets/mesut_kaya.jpg"
                 alt=""
               />
             </a>
