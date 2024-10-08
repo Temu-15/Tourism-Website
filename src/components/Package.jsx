@@ -10,13 +10,20 @@ import danakil3 from "../assets/danakil 3.jpg";
 import simien from "../assets/simien.jpg";
 import merkato from "../assets/merkato 1.jpg";
 import mesut_kaya from "../assets/mesut_kaya.jpg";
+import addisababa from "../assets/adisababa.jpg";
+import harar from "../assets/harari.jpg";
+import lalibela from "../assets/lalibela.jpg";
+import gondar from "../assets/gondare.jpg";
+import debren from "../assets/debren.jpg";
+import sanete from "../assets/sanete.jpg";
+import due from "../assets/due.jpg";
 
 export default function Package() {
   return (
     <div className="px-4">
       <div className="flex flex-col items-center mt-5">
         <h1 className="mb-4 text-4xl font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">
-          Explore Popular Cities
+          Explore Popular Destinations
         </h1>
         <p className="mb-6 text-lg font-normal text-center text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           Join our expert local leaders on a small group tour of Ethiopia to
@@ -209,7 +216,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img className="rounded-t-lg" src={mesut_kaya} alt="" />
+              <img className="rounded-t-lg" src={addisababa} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
@@ -248,7 +255,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img className="rounded-t-lg" src={mesut_kaya} alt="" />
+              <img className="rounded-t-lg" src={harar} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
@@ -283,51 +290,12 @@ export default function Package() {
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img className="rounded-t-lg" src={mesut_kaya} alt="" />
-            </a>
-            <div className="p-5">
-              <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Unity Park
-                </h5>
-              </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Located within the National Grand Palace, Unity Park offers
-                travelers the opportunity to learn about nature
-              </p>
-              <a
-                href="#"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Read more
-                <svg
-                  className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
-              <img className="rounded-t-lg" src={mesut_kaya} alt="" />
+              <img className="rounded-t-lg" src={due} alt="" />
             </a>
             <div className="p-5">
               <a href="#">
@@ -367,7 +335,7 @@ export default function Package() {
           {" "}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <img className="rounded-t-lg" src={mesut_kaya} alt="" />
+              <img className="rounded-t-lg" src={debren} alt="" />
             </a>
             <div className="p-5">
               <a href="#">

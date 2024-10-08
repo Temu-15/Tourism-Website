@@ -10,10 +10,13 @@ import Cards from "./Cards";
 import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import adama from "../assets/adama.jpg";
-import addisababa from "../assets/addisAbaba.jpg";
-import harar from "../assets/harar.jpg";
+import addisababa from "../assets/adisababa.jpg";
+import harar from "../assets/harari.jpg";
 import lalibela from "../assets/lalibela.jpg";
-import gondar from "../assets/gondar.jpg";
+import gondar from "../assets/gondare.jpg";
+import debren from "../assets/debren.jpg";
+import sanete from "../assets/sanete.jpg";
+import due from "../assets/due.jpg";
 
 function Feature() {
   return (
@@ -23,38 +26,30 @@ function Feature() {
       </h2>
 
       <Swiper
-        navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-          enabled: true,
+        pagination={{
+          clickable: true,
         }}
-        pagination={true}
         breakpoints={{
           320: {
             slidesPerView: 1,
             spaceBetween: 7,
-            navigation: {
-              enabled: false,
-            },
           },
           640: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 40,
           },
           1024: {
-            slidesPerView: 5,
+            slidesPerView: 4,
             spaceBetween: 5,
           },
         }}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination]}
         classNameName="mySwiper"
       >
-        <div className="swiper-button-next top-0">BU</div>
-        <div className="swiper-button-prev">HGJ</div>
         <SwiperSlide>
           <Cards
             title="Addis Ababa"
@@ -65,16 +60,16 @@ function Feature() {
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <Cards
-            title="Lalibela"
-            location="arab"
-            travellers={120}
-            image={lalibela}
-          />
+          <Cards title="Harar" location="arab" travellers={120} image={harar} />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <Cards title="Adama" location="arab" travellers={120} image={adama} />
+          <Cards
+            title="Adama"
+            location="arab"
+            travellers={120}
+            image={debren}
+          />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
@@ -87,23 +82,16 @@ function Feature() {
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <Cards title="Lalibela" location="arab" travellers={120} />
+          <Cards
+            title="Sanete"
+            location="arab"
+            travellers={120}
+            image={sanete}
+          />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <Cards title="Lalibela" location="arab" travellers={120} />
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <Cards title="Lalibela" location="arab" travellers={120} />
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <Cards title="Lalibela" location="arab" travellers={120} />
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <Cards title="Lalibela" location="arab" travellers={120} />
+          <Cards title="Due" location="arab" travellers={120} image={due} />
         </SwiperSlide>
       </Swiper>
     </div>

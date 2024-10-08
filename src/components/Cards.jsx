@@ -61,7 +61,7 @@ function Cards({ title, location, travellers, image }) {
         </h2>
         <p className="text-gray-600">{location}</p>
         <p className="text-white-500 text-[18px] mt-2">
-          {travellers}wants to travel here
+          {travellers} people want to travel here
         </p>
       </div>
     </div>
