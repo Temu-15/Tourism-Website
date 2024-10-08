@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-function Cards({ title, location, travellers }) {
+function Cards({ title, location, travellers, image }) {
   const [liked, setLiked] = useState(false);
   const navigate = useNavigate();
   const handleClick = () => {
