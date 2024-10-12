@@ -6,6 +6,8 @@ import Package from "./Package";
 import Cards from "./Cards";
 import Feature from "./Feature";
 import Footer from "./Footer";
+import CallToAction from "./CallToAction";
+import Popular from "./Popular.jsx";
 function Home() {
   const myStyle = {
     backgroundImage: `url(${image})`,
@@ -19,8 +21,9 @@ function Home() {
       <Navbar />
       <Hero />
       <Package />
-
       <Feature />
+      <CallToAction />
+      <Popular />
       <Footer />
     </div>
   );
