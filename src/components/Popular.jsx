@@ -108,7 +108,7 @@ import Timket from "../assets/Timket.jpg";
 
 function Popular() {
   return (
-    <div className="lg:px-12 mt-20">
+    <div className="lg:px-12 mt-20 px-4 sm:px-8">
       {/* Header */}
       <div className="h-[50px] flex items-center justify-between mb-10">
         <h2 className="font-bold text-[24px] md:text-[30px] leading-[36px] md:leading-[45px] text-[#05073C]">
