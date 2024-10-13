@@ -8,7 +8,7 @@ function PageNotFound() {
     navigate("/");
   };
   return (
-    <div>
+    <div className="flex h-[80vh] w-full justify-center items-center flex-col">
       <h2
         className={`text-center font-black lg:text-[90px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2`}
       >

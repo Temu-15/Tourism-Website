@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 
-const Hero = () => {
+const Hero = ({ style }) => {
   const navigate = useNavigate();
   const handleClick = () => {
     navigate("/about");
@@ -9,6 +9,7 @@ const Hero = () => {
   return (
     <section
       className={`relative w-full h-screen mx-auto flex flex-row align-center`}
+      style={style}
     >
       <div
         className={`absolute inset-0 top-[120px]max-w-7xl mx-auto  flex flex-col items-center justify-center sm:justify-start gap-5`}

@@ -17,14 +17,12 @@ function Home() {
     width: "100%",
   };
   return (
-    <div style={myStyle}>
-      <Navbar />
-      <Hero />
+    <div>
+      <Hero style={myStyle} />
       <Package />
       <Feature />
       <CallToAction />
       <Popular />
-      <Footer />
     </div>
   );
 }

@@ -19,7 +19,6 @@ function About() {
   };
   return (
     <div>
-      <Navbar />
       <section className="py-20 mt-19 lg:py-24 relative">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
@@ -157,8 +156,6 @@ function About() {
           </section>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }

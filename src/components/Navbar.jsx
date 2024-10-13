@@ -6,7 +6,7 @@ import close from "../assets/close.svg";
 import menu from "../assets/menu.svg";
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
+  const [active, setActive] = useState(null);
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -32,9 +32,11 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-[#fff]"
+                active === nav.title ? "text-[#05073C]" : "text-[#fff]"
               } hover:text-[#000] text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() => {
+                setActive(nav.title);
+              }}
             >
               <a href={`${nav.id}`}>{nav.title}</a>
             </li>
@@ -59,7 +61,7 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-[#fff]"
+                    active === nav.title ? "text-[#EB6628]" : "text-[#fff]"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);

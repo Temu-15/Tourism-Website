@@ -4,15 +4,18 @@ import "./App.css";
 import About from "./components/About";
 import Home from "./components/Home";
 import PageNotFound from "./components/PageNotFound";
+import Layout from "./Layout.jsx";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<PageNotFound />} />
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
