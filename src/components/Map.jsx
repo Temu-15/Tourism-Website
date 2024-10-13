@@ -4,6 +4,12 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { div } from "framer-motion/client";
 
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: "https://unpkg.com/leaflet/dist/images/marker-icon-2x.png",
+  iconUrl: "https://unpkg.com/leaflet/dist/images/marker-icon.png",
+  shadowUrl: "https://unpkg.com/leaflet/dist/images/marker-shadow.png",
+});
 const locations = [
   { id: 1, name: "AddisTravel HQ", position: [9.03414, 38.771943] },
   {
@@ -15,7 +21,7 @@ const locations = [
 
 function Map() {
   return (
-    <div className="mb-4 ">
+    <div className="z">
       <h2 className="font-bold text-[24px] mb-4  md:text-[30px] leading-[36px] md:leading-[45px] text-[#05073C] text-center">
         Where we are found
       </h2>
