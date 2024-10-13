@@ -12,7 +12,7 @@ import { Slide, Fade, Zoom } from "react-awesome-reveal";
 
 function Popular() {
   return (
-    <div className="lg:px-12 mt-20 px-4 sm:px-8">
+    <div className="lg:px-12 mt-20 px-4 sm:px-8 mb-12 ">
       <Slide duration={800}>
         <div className="h-[50px] flex items-center justify-between mb-10">
           <h2 className="font-bold text-[24px] md:text-[30px] leading-[36px] md:leading-[45px] text-[#05073C]">
@@ -52,7 +52,7 @@ function Popular() {
         </Zoom>
 
         <Slide direction="right" duration={500}>
-          <CardSmall img={ethiopianRun} title="Ethiopian Run" />
+          <CardSmall img={ethiopianRun} title="Great Ethiopian Run" />
         </Slide>
       </div>
     </div>
