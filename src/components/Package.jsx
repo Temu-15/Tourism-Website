@@ -22,10 +22,10 @@ export default function Package() {
   return (
     <div className="px-4">
       <div className="flex flex-col items-center mt-5">
-        <h1 className="mb-4 text-4xl font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">
+        <h1 className="mb-4 text-4xl font-extrabold leading-none text-center tracking-tight text-[#05073C] md:text-5xl lg:text-6xl">
           Explore Popular Destinations
         </h1>
-        <p className="mb-6 text-lg font-normal text-center text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        <p className="mb-6 text-lg font-normal text-center text-gray-500 lg:text-xl sm:px-16 xl:px-48">
           Join our expert local leaders on a small group tour of Ethiopia to
           explore ancient holy lands.Experience the wonders of Ethiopia, with
           its fascinating wildlife and rich history.

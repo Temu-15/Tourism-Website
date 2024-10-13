@@ -21,7 +21,7 @@ import due from "../assets/due.jpg";
 function Feature() {
   return (
     <div>
-      <h2 className="mt-10 text-4xl font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">
+      <h2 className="mt-10 text-4xl font-extrabold leading-none text-center tracking-tight text-[#05073C] md:text-5xl lg:text-6xl dark:text-[#05073C]">
         Popular cities
       </h2>
 

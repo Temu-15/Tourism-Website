@@ -3,11 +3,19 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import aboutphoto from "../assets/aboutus.jpg";
 import { useNavigate } from "react-router-dom";
+import bgimage from "../assets/image.png";
 
 function About() {
   const navigate = useNavigate();
   const handleClick = () => {
     navigate("/");
+  };
+  const myStyle = {
+    backgroundImage: `url(${bgimage})`,
+    height: "100%",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    width: "100%",
   };
   return (
     <div>
@@ -24,10 +32,10 @@ function About() {
             </div>
             <div className="lg:pl-[100px] flex items-center">
               <div className="data w-full">
-                <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
+                <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-[#05073C] mb-9 max-lg:text-center relative">
                   About Us{" "}
                 </h2>
-                <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+                <p className="font-normal text-xl leading-8 text-[#05073C]-400 max-lg:text-center max-w-2xl mx-auto">
                   We specialize in providing unforgettable experiences in
                   Ethiopia, from breathtaking landscapes to rich cultural
                   heritage.
@@ -45,7 +53,7 @@ function About() {
       </section>
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="font-manrope text-4xl text-center text-gray-900 font-bold mb-14">
+          <h2 className="font-manrope text-4xl text-center text-[#05073C] capitalize font-bold mb-14">
             our company in Numbers
           </h2>
           <div className="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
@@ -55,7 +63,7 @@ function About() {
                   240%
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl text-gray-900 font-semibold mb-2">
+                  <h4 className="text-xl text-[#05073C] font-semibold mb-2">
                     Tourism Growth
                   </h4>
                   <p className="text-xs text-gray-500 leading-5">
@@ -71,7 +79,7 @@ function About() {
                   175+
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl text-gray-900 font-semibold mb-2">
+                  <h4 className="text-xl text-[#05073C] font-semibold mb-2">
                     Destinations Covered
                   </h4>
                   <p className="text-xs text-gray-500 leading-5">
@@ -87,7 +95,7 @@ function About() {
                   625+
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl text-gray-900 font-semibold mb-2">
+                  <h4 className="text-xl text-[#05073C] font-semibold mb-2">
                     Tours Organized
                   </h4>
                   <p className="text-xs text-gray-500 leading-5">
@@ -101,10 +109,10 @@ function About() {
         </div>
       </section>
 
-      <section className="py-14 lg:py-24 bg-gray-50">
+      <section className="py-14 lg:py-24 bg-gray-50" style={myStyle}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div className="mb-4 rounded-full">
-            <h2 className="text-4xl font-manrope font-bold text-gray-900 text-center">
+            <h2 className="text-4xl font-manrope font-bold text-[#05073C] text-center">
               What our travelers say!
             </h2>
           </div>
@@ -139,7 +147,9 @@ function About() {
                   />
                   <div className="flex items-center divide-x-2 divide-gray-500">
                     <div className="pr-3 font-medium ">Emily Johnson</div>
-                    <div className="pl-3 font-light">Traveler from the USA</div>
+                    <div className="pl-3 text-[#05073C]">
+                      Traveler from the USA
+                    </div>
                   </div>
                 </figcaption>
               </figure>
