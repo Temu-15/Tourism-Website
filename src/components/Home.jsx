@@ -8,6 +8,7 @@ import Feature from "./Feature";
 import Footer from "./Footer";
 import CallToAction from "./CallToAction";
 import Popular from "./Popular.jsx";
+import Map from "./Map.jsx";
 function Home() {
   const myStyle = {
     backgroundImage: `url(${image})`,
@@ -23,6 +24,7 @@ function Home() {
       <Feature />
       <CallToAction />
       <Popular />
+      <Map />
     </div>
   );
 }
